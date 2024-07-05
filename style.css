@@ -69,6 +69,7 @@ img {
 .hero {
   background-image: url("./img/hero.png");
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,11 +100,12 @@ img {
   color: var(--color-accent-yellow);
   display: flex;
   flex-direction: column;
+  font-weight: 400;
   gap: 30px;
 }
 
 .hero-main-copy {
-  font-family: var(--font-family-headimg);
+  font-family: var(--font-family-heading);
   font-size: 64px;
   line-height: 1;
   margin: 0;
