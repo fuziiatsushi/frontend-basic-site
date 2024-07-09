@@ -96,7 +96,7 @@ img {
   z-index: 1;
 }
 
-<span class="hero-main-copy-accent" > “GRAND” </span > .hero-texts {
+.hero-texts {
   color: var(--color-accent-yellow);
   display: flex;
   flex-direction: column;
@@ -141,11 +141,14 @@ img {
   letter-spacing: 0.64px;
 }
 
-.和っと {
+.abc {
   color: var(--color-white);
   background-color: #020911;
 }
 
 .about-accent-red {
   color: var(--color-accent-red);
+}
+.about-accent-yellow {
+  color: var(--color-accent-yellow);
 }
