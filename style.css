@@ -96,7 +96,7 @@ img {
   z-index: 1;
 }
 
-.hero-texs {
+<span class="hero-main-copy-accent" > “GRAND” </span > .hero-texts {
   color: var(--color-accent-yellow);
   display: flex;
   flex-direction: column;
@@ -129,7 +129,23 @@ img {
   .hero-container {
     justify-content: flex-start;
   }
-  .hero-texs {
+  .hero-texts {
     gap: 20px;
   }
+}
+
+/* about */
+.about {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+}
+
+.和っと {
+  color: var(--color-white);
+  background-color: #020911;
+}
+
+.about-accent-red {
+  color: var(--color-accent-red);
 }
