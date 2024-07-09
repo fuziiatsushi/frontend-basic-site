@@ -96,7 +96,7 @@ img {
   z-index: 1;
 }
 
-.hero-texs {
+.hero-texts {
   color: var(--color-accent-yellow);
   display: flex;
   flex-direction: column;
@@ -129,7 +129,7 @@ img {
   .hero-container {
     justify-content: flex-start;
   }
-  .hero-texs {
+  .hero-texts {
     gap: 20px;
   }
 }
